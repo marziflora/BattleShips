@@ -142,8 +142,8 @@ if __name__ == "__main__":
     print("        BattleShip\n")
     print("Oznaczenia: \n _ puste pole \n S zestrzelony statek\n . pudło \n  ")
     while len(first_player_ships_shot) !=20 and len(second_player_ships_shot) != 20:
-        change = input("Tura pierwszego gracza. Jak będzie gotowy, niech wpisze G\n")
-        while change != "G":
+        change = input("Tura pierwszego gracza. Jak będzie gotowy, niech wpisze G1\n")
+        while change != "G1":
             print("Podano nieprawidłowy znak")
             change = input("Tura pierwszego gracza. Jak będzie gotowy, niech wpisze G\n")
         print("     Gracz pierwszy: \n Twoja plansza statków: \n")
@@ -151,8 +151,8 @@ if __name__ == "__main__":
         print("     Plansza przeciwnika: \n")
         w.show_board([], second_player_ships_shot, second_player_attempt) #przeciwnika
         shoot(second_player_ships, second_player_ships_shot, second_player_attempt)
-        change = input("Tura drugiego gracza. Jak będzie gotowy, niech wpisze G\n")
-        while change != "G":
+        change = input("Tura drugiego gracza. Jak będzie gotowy, niech wpisze G2\n")
+        while change != "G2":
             print("Podano nieprawidłowy znak")
             change = input("Zawołaj drugiego gracza. Jak będzie gotowy, niech wpisze G\n")
         print("     Gracz drugi: \n Twoja plansza statków: \n")
