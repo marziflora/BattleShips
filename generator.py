@@ -9,7 +9,7 @@ import random
 # rows=[1,2,3,4,5,6,7,8,9,10]
 board = []
 ships=[] #pozycje statków do odgadywania
-forbidden=[] #po każdym dodaniu statku generują się pozycje dookoła statku, w których napewno nie może być następnego statku
+forbidden=[] #po każdym dodaniu statku generują się pozycje dookoła statku, w których na pewno nie może być następnego statku
 
 def battleship4():
     slope = random.randint(0,1) #pionowo czy poziomo
