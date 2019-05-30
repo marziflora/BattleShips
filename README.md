@@ -2,7 +2,9 @@
 <p>Game battleships for two players shooting at each other.</p>
 <h1><a id="Statistics_4"></a>Statistics</h1>
 <p>For checking justice of generator I have draw 10000 times the whole board.
-![alt text](https://github.com/marziflora/BattleShips/blob/master/subfolder/battleship%20statistics.PNG?raw=true
+ 
+![alt text](https://github.com/marziflora/BattleShips/blob/master/subfolder/battleship%20statistics.PNG?raw=true)
+
 ![alt text](https://github.com/marziflora/BattleShips/blob/master/subfolder/board.JPG?raw=truee)
 
 </p>
